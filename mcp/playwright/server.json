@@ -1,0 +1,19 @@
+{
+  "id": "playwright",
+  "description": "Playwright MCP server（浏览器自动化：打开页面、填写、点击、截图）",
+  "transport": {
+    "kind": "stdio",
+    "command": "node",
+    "args": [
+      "node_modules/@playwright/mcp/cli.js",
+      "--browser",
+      "chrome",
+      "--headless",
+      "--isolated",
+      "--output-dir",
+      "data",
+      "--allow-unrestricted-file-access"
+    ]
+  },
+  "setup": "npm install @playwright/mcp --registry https://npm.corp.kuaishou.com/"
+}

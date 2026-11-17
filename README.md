@@ -94,3 +94,10 @@ data/fail_<用例名>.png
 **百度首页搜索框换了。** 老版 `input#kw` 仍在 DOM 里，但宽高是 0；
 实际可见的是 `textarea#chat-textarea`（AI 对话式搜索框）。
 用 `#kw` 会一直卡在 `waiting for element to be visible`，重试几十次后失败。
+
+## Playwright MCP
+
+仓库里带 `mcp/playwright/server.json`，可在支持 MCP 的运行时激活
+浏览器自动化工具集（21 个 browser_* 工具）。详见
+[docs/mcp-integration.md](docs/mcp-integration.md)。
+
