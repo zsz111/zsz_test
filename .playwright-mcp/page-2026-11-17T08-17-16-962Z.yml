@@ -1,0 +1,50 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link "新闻" [ref=e5] [cursor=pointer]:
+      - /url: //news.baidu.com/
+    - link "hao123" [ref=e6] [cursor=pointer]:
+      - /url: //www.hao123.com/
+    - link "地图" [ref=e7] [cursor=pointer]:
+      - /url: //map.baidu.com/
+    - link "直播" [ref=e8] [cursor=pointer]:
+      - /url: //live.baidu.com/
+    - link "视频" [ref=e9] [cursor=pointer]:
+      - /url: //haokan.baidu.com/?sfrom=baidu-top
+    - link "贴吧" [ref=e10] [cursor=pointer]:
+      - /url: //tieba.baidu.com/
+    - link "学术" [ref=e11] [cursor=pointer]:
+      - /url: //xueshu.baidu.com/
+    - link "更多" [ref=e13] [cursor=pointer]:
+      - /url: //www.baidu.com/more/
+  - link "登录" [ref=e15] [cursor=pointer]:
+    - /url: //www.baidu.com/bdorz/login.gif?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1
+  - generic [ref=e18]:
+    - link:
+      - /url: //www.baidu.com/
+    - generic [ref=e21]:
+      - textbox [ref=e23]
+      - button "百度一下" [ref=e25] [cursor=pointer]
+  - generic [ref=e27]:
+    - paragraph [ref=e28]:
+      - link "关于百度" [ref=e29] [cursor=pointer]:
+        - /url: //home.baidu.com/
+    - paragraph [ref=e30]:
+      - link "About Baidu" [ref=e31] [cursor=pointer]:
+        - /url: //ir.baidu.com/
+    - paragraph [ref=e32]:
+      - link "使用百度前必读" [ref=e33] [cursor=pointer]:
+        - /url: //www.baidu.com/duty
+    - paragraph [ref=e34]:
+      - link "帮助中心" [ref=e35] [cursor=pointer]:
+        - /url: //help.baidu.com/
+    - paragraph [ref=e36]:
+      - link "京公网安备11000002000001号" [ref=e37] [cursor=pointer]:
+        - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001
+    - paragraph [ref=e38]:
+      - link "京ICP证030173号" [ref=e39] [cursor=pointer]:
+        - /url: //beian.miit.gov.cn/
+    - paragraph [ref=e40]: ©2026 Baidu
+    - paragraph [ref=e41]: 互联网药品信息服务资格证书 (京)-经营性-2017-0020
+    - paragraph [ref=e42]:
+      - link "信息网络传播视听节目许可证 0110516" [ref=e43] [cursor=pointer]:
+        - /url: //www.baidu.com/licence/
