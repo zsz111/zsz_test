@@ -1,0 +1,12 @@
+# Playwright MCP temp files
+.playwright-mcp/
+
+# IDE
+.idea/
+
+# Python virtual environment
+.venv/
+
+# OS files
+Thumbs.db
+Desktop.ini
